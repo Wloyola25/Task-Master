@@ -1,0 +1,326 @@
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.3/js.cookie.js"></script>
+<title>Daily Planner</title>
+</head>
+<body>
+
+
+<h1 class="txt1">Work Day Scheduler</h1>
+<p class="txt2">A simple calendar app for scheduling your work day</p>
+
+<!-- date -->
+<div id="current_date" class="txt3"></p> 
+</div>
+
+
+<!-- line -->
+
+<hr style="height:9px;  width:10opx;  color:black;  background-color:black">
+
+
+
+
+
+    <!-- first -->
+    <div class="section1">
+        <div class="line1">
+
+        </div>
+        <p class="txt4">9AM</p>
+        <input id="name" type="text" class="name"> <br> <br>
+        <input type="button" value="save" id="name" class="btn1"><br> <br>
+
+        <div class="line2">
+
+        </div>
+    </div>
+
+    <!-- first -->
+
+
+    <!-- second -->
+    <div class="section2">
+        <div class="line1">
+
+        </div>
+        <p class="txt4">10AM</p>
+        <input id="name2" type="text" class="name2">  <br> <br>
+    <input type="button" value="save" id="name" class="btn1"><br> <br>
+
+        <div class="line2">
+
+        </div>
+    </div>
+
+    <!-- second -->
+
+
+    <!-- third -->
+    <div class="section3">
+        <div class="line1">
+
+        </div>
+        <p class="txt4">11AM</p>
+        <input id="name3" type="text" class="name2">  <br> <br>
+    <input type="button" value="save" id="name3" class="btn1"><br> <br>
+
+        <div class="line2">
+
+        </div>
+    </div>
+
+    <!-- third -->
+
+
+    <!-- fourth -->
+    <div class="section4">
+        <div class="line1">
+
+        </div>
+        <p class="txt4">12PM</p>
+        <input id="name4" type="text" class="name3">  <br> <br>
+    <input type="button" value="save" id="name4" class="btn1"><br> <br>
+
+        <div class="line2">
+
+        </div>
+    </div>
+
+    <!-- fourth -->
+
+
+    
+        <!-- fifth -->
+        <div class="section5">
+            <div class="line1">
+    
+            </div>
+            <p class="txt4">1PM</p>
+            <input id="name5" type="text" class="name4">  <br> <br>
+        <input type="button" value="save" id="name5" class="btn1"><br> <br>
+    
+            <div class="line2">
+    
+            </div>
+        </div>
+    
+        <!-- fifth -->
+
+
+         <!-- sixth -->
+         <div class="section6">
+            <div class="line1">
+    
+            </div>
+            <p class="txt4">2PM</p>
+            <input id="name6" type="text" class="name4">  <br> <br>
+        <input type="button" value="save" id="name6" class="btn1"><br> <br>
+    
+            <div class="line2">
+    
+            </div>
+        </div>
+    
+        <!-- sixth -->
+
+
+         <!-- seventh -->
+         <div class="section7">
+            <div class="line1">
+    
+            </div>
+            <p class="txt4">3PM</p>
+            <input id="name7" type="text" class="name4">  <br> <br>
+        <input type="button" value="save" id="name7" class="btn1"><br> <br>
+    
+            <div class="line2">
+    
+            </div>
+        </div>
+    
+        <!-- seventh -->
+
+
+
+         <!-- eight -->
+         <div class="section8">
+            <div class="line1">
+    
+            </div>
+            <p class="txt4">4PM</p>
+            <input id="name8" type="text" class="name4">  <br> <br>
+        <input type="button" value="save" id="name8" class="btn1"><br> <br>
+    
+            <div class="line2">
+    
+            </div>
+        </div>
+    
+        <!-- eight -->
+
+
+         <!-- nineth -->
+         <div class="section9">
+            <div class="line1">
+    
+            </div>
+            <p class="txt4">5PM</p>
+            <input id="name9" type="text" class="name4">  <br> <br>
+        <input type="button" value="save" id="name9" class="btn1"><br> <br>
+    
+            <div class="line2">
+    
+            </div>
+        </div>
+    
+        <!-- nineth -->
+        
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+document.getElementById("current_date").innerHTML = Date();
+
+
+
+     /*   first */
+
+        $(document).ready(function(){
+            var name = Cookies.get('_username');
+            if (name) {
+                $('#name').val(name);
+            }
+            $('#name').keydown(function(){
+                var inputName = $('#name').val();
+                Cookies.set('_username', inputName);
+            })
+        });
+
+        /* second */
+
+        $(document).ready(function(){
+            var name2 = Cookies.get('_username2');
+            if (name2) {
+                $('#name2').val(name2);
+            }
+            $('#name2').keydown(function(){
+                var inputName = $('#name2').val();
+                Cookies.set('_username2', inputName);
+            })
+        });
+
+        /* third */
+
+        $(document).ready(function(){
+            var name3 = Cookies.get('_username3');
+            if (name3) {
+                $('#name3').val(name3);
+            }
+            $('#name3').keydown(function(){
+                var inputName = $('#name3').val();
+                Cookies.set('_username3', inputName);
+            })
+        });
+
+
+        /* fourth */
+
+        $(document).ready(function(){
+            var name4 = Cookies.get('_username4');
+            if (name4) {
+                $('#name4').val(name4);
+            }
+            $('#name4').keydown(function(){
+                var inputName = $('#name4').val();
+                Cookies.set('_username4', inputName);
+            })
+        });
+
+
+         /* fifth */
+
+         $(document).ready(function(){
+            var name5 = Cookies.get('_username5');
+            if (name5) {
+                $('#name5').val(name5);
+            }
+            $('#name5').keydown(function(){
+                var inputName = $('#name5').val();
+                Cookies.set('_username5', inputName);
+            })
+        });
+
+
+         /* sixth */
+
+         $(document).ready(function(){
+            var name6 = Cookies.get('_username6');
+            if (name6) {
+                $('#name6').val(name6);
+            }
+            $('#name6').keydown(function(){
+                var inputName = $('#name6').val();
+                Cookies.set('_username6', inputName);
+            })
+        });
+
+
+         /* seventh */
+
+         $(document).ready(function(){
+            var name7 = Cookies.get('_username7');
+            if (name7) {
+                $('#name7').val(name7);
+            }
+            $('#name7').keydown(function(){
+                var inputName = $('#name7').val();
+                Cookies.set('_username7', inputName);
+            })
+        });
+
+
+        /* eight */
+
+        $(document).ready(function(){
+            var name8 = Cookies.get('_username8');
+            if (name8) {
+                $('#name8').val(name8);
+            }
+            $('#name8').keydown(function(){
+                var inputName = $('#name8').val();
+                Cookies.set('_username8', inputName);
+            })
+        });
+
+
+         /* nineth */
+
+         $(document).ready(function(){
+            var name9 = Cookies.get('_username9');
+            if (name9) {
+                $('#name9').val(name9);
+            }
+            $('#name9').keydown(function(){
+                var inputName = $('#name9').val();
+                Cookies.set('_username9', inputName);
+            })
+        });
+
+    </script>
+</body>
+</html>

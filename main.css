@@ -1,0 +1,176 @@
+.txt1 {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.txt2 {
+    position: relative;
+    text-align: center;
+    bottom: 30px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.txt3 {
+    position: relative;
+    text-align: center;
+    bottom: 30px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.txt4 {
+    position: relative;
+    text-align: left;
+    font-weight: 1000px;
+    font-size: 18px;
+    left: 272px;
+    top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.hr {
+    position: relative;
+    bottom: 111px;
+
+}
+
+.section1 {
+    position: relative;
+    text-align: center;
+}
+
+.section2 {
+    position: relative;
+    text-align: center;
+    bottom: 200px;
+}
+
+.section3 {
+    position: relative;
+    text-align: center;
+    bottom: 400px;
+}
+
+.section4 {
+    position: relative;
+    text-align: center;
+    bottom: 600px;
+}
+
+.section5 {
+    position: relative;
+    text-align: center;
+    bottom: 800px;
+}
+
+.section6 {
+    position: relative;
+    text-align: center;
+    bottom: 1000px;
+}
+
+.section7 {
+    position: relative;
+    text-align: center;
+    bottom: 1200px;
+}
+
+.section8 {
+    position: relative;
+    text-align: center;
+    bottom: 1400px;
+}
+
+.section9 {
+    position: relative;
+    text-align: center;
+    bottom: 1600px;
+}
+
+.line1 {
+    position: relative;
+    border: 0.1px solid gray;
+    background-color: grey;
+    top: 62px;
+    left: 254px;
+    width: 90px;
+}
+
+.line2 {
+    position: relative;
+    border: 0.1px solid gray;
+    background-color: grey;
+    bottom: 139px;
+    left: 254px;
+    width: 90px;
+}
+
+
+
+.name {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background-color: grey;
+    border-color: grey;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name2 {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background-color: grey;
+    border-color: grey;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name3 {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background-color:brown;
+    border-color: brown;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name4 {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background-color:rgb(102, 201, 63);
+    border-color: rgb(102, 201, 63);
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn1 {
+    position: relative;
+    left: 550px;
+    bottom: 118px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(18, 156, 241);
+    border: 0px;
+   border-top-right-radius: 10px; 
+   border-bottom-right-radius: 10px;
+
+  
+}
+
+  
