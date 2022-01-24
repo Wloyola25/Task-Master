@@ -8,6 +8,10 @@ This will help you remember what you need to accomplish in an easy and simple ma
 
 **BUILT WITH**
 * HTML
+* CSS
+
+**VERSION HISTORY**
+* 0.1 Initial Release
 
 
 
